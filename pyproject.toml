@@ -1,0 +1,17 @@
+[metadata]
+name = 'django-shrubbery'
+version = '0.0.1'
+description = 'A demo Django app (add-on).'
+author = 'Martin Bächtold'
+author_email = 'martin@baechtold.me'
+license = 'MIT/Apache-2.0'
+url = 'https://github.com/mbaechtold/django-shrubbery'
+
+[requires]
+python_version = ['3.6', '3.7']
+
+[build-system]
+requires = ['setuptools', 'wheel']
+
+[tool.hatch.commands]
+prerelease = 'hatch build'
